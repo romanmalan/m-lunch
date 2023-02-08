@@ -1095,3 +1095,10 @@ td:nth-child(2) {
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 767px) {
+  body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
