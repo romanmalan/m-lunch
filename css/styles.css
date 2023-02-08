@@ -95,9 +95,12 @@ video {
 }
 
 .social_numbers {
+  display: -webkit-flex;
   display: flex;
   align-items: center;
+  -webkit-justify-content: right;
   justify-content: right;
+  text-align: right;
 }
 
 body {
@@ -1084,4 +1087,9 @@ td:nth-child(2) {
 .icons-container {
   display: flex;
   justify-content: center;
+}
+
+#numbers a {
+  text-decoration: none;
+  color: #f0e74a;
 }
