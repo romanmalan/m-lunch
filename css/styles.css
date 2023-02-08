@@ -767,6 +767,7 @@ td:nth-child(2) {
 
   .numbers__time {
     padding-right: 25px;
+    text-align: right;
   }
 
   footer {
@@ -821,6 +822,7 @@ td:nth-child(2) {
     font-size: 24px;
     margin-left: 20px;
     width: 204px;
+    text-align: right;
   }
 
   #time {
