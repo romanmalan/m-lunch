@@ -1090,6 +1090,12 @@ td:nth-child(2) {
 }
 
 #numbers a {
+  color: inherit;
   text-decoration: none;
   color: #f0e74a;
+}
+
+a[href^='tel'] {
+  color: inherit;
+  text-decoration: none;
 }
