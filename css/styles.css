@@ -182,7 +182,7 @@ nav {
 .social-icon {
   width: 20px;
   height: 20px;
-  background: url(./social3.png) no-repeat;
+  background: url(./images/social3.png) no-repeat;
   display: inline-block;
   margin-right: 20px;
 }
@@ -810,7 +810,7 @@ td:nth-child(2) {
     margin-right: 100px;
     width: 30px;
     height: 30px;
-    background: url(./social1.png) no-repeat;
+    background: url(./images/social1.png) no-repeat;
   }
 
   .instagram {
