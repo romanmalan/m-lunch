@@ -757,8 +757,8 @@ td:nth-child(2) {
 }
 @media (max-width: 1099px) {
   .menu2 {
-    padding: 10px 10px;
-    font-size: 17px;
+    padding: 8px 10px;
+    font-size: 18px;
   }
 
   #short-item {
@@ -828,6 +828,7 @@ td:nth-child(2) {
 
   h1 span {
     font-size: 3.5em;
+    margin-top: 140px;
   }
 
   .content__items {
