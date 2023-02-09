@@ -91,7 +91,7 @@ video {
 }
 
 #social-mob {
-  display: flex;
+  display: none;
 }
 
 .social_numbers {
@@ -147,7 +147,7 @@ nav {
 .top-menu li {
   display: inline-block;
   list-style-position: inside;
-  padding: 8px 18px;
+  padding: 13px 21px;
 }
 
 .top-menu li:last-child {
@@ -172,6 +172,7 @@ nav {
 .numbers__time {
   display: flex;
   flex-direction: column;
+  flex-shrink: 0;
 }
 
 #social {
@@ -400,7 +401,7 @@ h1 {
 }
 h1 span {
   display: inline-block;
-  margin: 74px 0 104px;
+  margin: 112px 0 104px;
   font-weight: 700;
   font-size: 45px;
 }
@@ -412,6 +413,10 @@ h1 span {
   gap: 20px;
   justify-content: flex-end;
   margin-top: 10px;
+  position: absolute;
+  flex-wrap: wrap;
+  right: 0;
+  width: 80%;
 }
 
 .menu2 {
@@ -751,18 +756,17 @@ td:nth-child(2) {
   width: 550px;
 }
 @media (max-width: 1099px) {
+  .menu2 {
+    padding: 10px 10px;
+    font-size: 17px;
+  }
+
   #short-item {
     height: 550px;
   }
 
-  #social {
-    top: 9px;
-    display: none;
-  }
-
   .numbers__time {
-    padding-right: 10px;
-    width: 205px;
+    padding-right: 15px;
   }
 
   footer {
@@ -793,17 +797,17 @@ td:nth-child(2) {
   }
 
   #wrapper-header nav {
-    display: none;
+    width: 300px;
+    font-size: 20px;
+    flex-shrink: 0;
   }
 
   #logo {
     padding-left: 37px;
     padding-top: 110px;
-    margin-right: 50px;
   }
 
   .social-icon {
-    margin-right: 100px;
     width: 30px;
     height: 30px;
     background: url(../images/social1.png) no-repeat;
