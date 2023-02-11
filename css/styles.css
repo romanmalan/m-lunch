@@ -110,11 +110,17 @@ body {
   color: white;
   background: url(../images/background.png);
   background-attachment: fixed;
+  background-color: #1a1a1a;
 }
-header {
-  background-color: #0d0d0d;
 
+header {
+  /*border-image: linear-gradient(to right, #089f83, #d57524) 30;*/
+  border-bottom: 4px;
+  border-bottom-style: none;
+  border-bottom-style: none;
+  border-style: solid;
   height: 80px;
+  background-color: #0d0d0d;
 }
 
 #wrapper-header {
@@ -442,7 +448,7 @@ h1 span {
 
 .content__container {
   color: #414141;
-  max-width: 962px;
+  max-width: 100%;
   justify-content: center;
   margin: 0 auto;
   display: flex;
@@ -715,7 +721,7 @@ h2 {
 
 table {
   border-collapse: collapse;
-  width: 850px;
+  width: 90%;
   font-size: 21px;
   color: #545454;
   margin: 10px 0;
@@ -723,14 +729,13 @@ table {
 
 tr {
   border-bottom: solid #282828 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 tr:last-child {
   border-bottom: none;
-}
-
-td {
-  padding: 60px 30px;
 }
 
 td:first-child {
@@ -742,7 +747,6 @@ td:first-child {
 td:last-child {
   font-size: 23px;
   color: #8b0000;
-  font-weight: 700;
   padding: 60px 20px;
 }
 
@@ -1118,6 +1122,7 @@ a[href^='tel'] {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  filter: brightness(95%);
 }
 
 .body_pizza::after {
@@ -1128,9 +1133,10 @@ a[href^='tel'] {
   left: 0;
   right: 0;
   z-index: -1; /* needed to keep in the background */
-  background: url(../images/pizzabgd.png) center center;
+  background: url(../images/pizzabgd.jpg) center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  filter: brightness(53%);
 }
