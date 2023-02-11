@@ -202,8 +202,8 @@ nav {
   background-position: -27px 0;
 }
 #numbers {
-  font-family: Kelly Slab;
-  color: #f0e74a;
+  font-family: 'Montserrat';
+  color: #ffffff;
 }
 
 #time {
@@ -1101,7 +1101,8 @@ td:nth-child(2) {
 #numbers a {
   color: inherit;
   text-decoration: none;
-  color: #f0e74a;
+  color: #e8d642;
+  letter-spacing: 0.01em;
 }
 
 a[href^='tel'] {
@@ -1138,5 +1139,5 @@ a[href^='tel'] {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  filter: brightness(53%);
+  filter: brightness(82%);
 }
