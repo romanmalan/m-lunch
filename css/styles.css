@@ -108,24 +108,22 @@ body {
 
   font-size: 17px;
   color: white;
-  background: url(../images/background.png);
+  background: url(../images/background4.png);
   background-attachment: fixed;
   background-color: #1a1a1a;
 }
 
 header {
-  /*border-image: linear-gradient(to right, #089f83, #d57524) 30;*/
-  border-bottom: 4px;
   border-bottom-style: none;
   border-bottom-style: none;
   border-style: solid;
-  height: 80px;
-  background-color: #0d0d0d;
+  height: 86px;
+  background-color: #171717bd;
 }
 
 #wrapper-header {
   max-width: 1020px;
-  height: 80px;
+  height: 100%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -179,6 +177,8 @@ nav {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
+  gap: 5px;
+  justify-content: space-between;
 }
 
 #social {
@@ -202,7 +202,7 @@ nav {
   background-position: -27px 0;
 }
 #numbers {
-  font-family: 'Montserrat';
+  /*font-family: 'Montserrat';*/
   color: #ffffff;
 }
 
@@ -224,7 +224,7 @@ nav {
 #slider-wrap {
   border-radius: 15px;
   margin: 10px auto 0px;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 #active-slide {
@@ -416,20 +416,20 @@ h1 span {
   margin-right: 15px;
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 17px;
   justify-content: flex-end;
-  margin-top: 10px;
+  margin-top: 9px;
   position: absolute;
   flex-wrap: wrap;
   right: 0;
-  width: 75%;
+  width: 80%;
 }
 
 .menu2 {
   box-shadow: 1px 1px rgba(150, 15, 15, 1), 2px 2px rgba(150, 15, 15, 1),
     3px 3px rgba(150, 15, 15, 1), 4px 4px rgba(150, 15, 15, 1), 5px 5px rgba(150, 15, 15, 1),
     6px 6px rgba(150, 15, 15, 1), 7px 7px rgba(150, 15, 15, 1), 8px 8px rgba(150, 15, 15, 1);
-  padding: 4px 11px;
+  padding: 6px 13px;
   display: inline-block;
   color: white;
   border-radius: 5px;
@@ -437,7 +437,7 @@ h1 span {
   white-space: nowrap;
   font-size: 15px;
   transition: all 0.1s;
-  background-color: #fb2223;
+  background-color: #fb242f;
 }
 
 .menu2:hover {
@@ -1101,8 +1101,8 @@ td:nth-child(2) {
 #numbers a {
   color: inherit;
   text-decoration: none;
-  color: #e8d642;
-  letter-spacing: 0.01em;
+  color: #fffb00;
+  letter-spacing: -0.02em;
 }
 
 a[href^='tel'] {
@@ -1135,6 +1135,38 @@ a[href^='tel'] {
   right: 0;
   z-index: -1; /* needed to keep in the background */
   background: url(../images/pizzabgd.jpg) center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: brightness(82%);
+}
+
+.body_sushi::after {
+  content: '';
+  position: fixed; /* stretch a fixed position to the whole screen */
+  top: 0;
+  height: 100vh; /* fix for mobile browser address bar appearing disappearing */
+  left: 0;
+  right: 0;
+  z-index: -1; /* needed to keep in the background */
+  background: url(../images/sushibgd1.jpg) center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: brightness(82%);
+}
+
+.body_shaurma::after {
+  content: '';
+  position: fixed; /* stretch a fixed position to the whole screen */
+  top: 0;
+  height: 100vh; /* fix for mobile browser address bar appearing disappearing */
+  left: 0;
+  right: 0;
+  z-index: -1; /* needed to keep in the background */
+  background: url(../images/shaurmabgd.jpg) center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
